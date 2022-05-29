@@ -30,3 +30,61 @@ body {
     min-height: 20px;
     color: #111111;
 }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 3.4375rem;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #6733e2;
+    margin-block: 4rem;
+}
+
+.wrapper {
+    width: 82%;
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 6rem;
+}
+
+.math_card {
+    text-align: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+main img {
+    margin: 1.5rem 0rem;
+    text-align: center;
+}
+
+.math_card h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-size: 1.875rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+    color: #6733e2;
+}
+
+.web_template_link {
+    font-size: 0.8rem;
+}
+
+
+/* HEADER SECTION */
+
+header {
+    background-color: #fff;
+}
+
+
+/* BOXES */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(359.98px, 1fr));
+    grid-gap: 30px;
+}
