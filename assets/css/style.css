@@ -12,3 +12,21 @@ body {
     line-height: 1.6;
     background-color: #ffb92f;
 }
+
+.nav-list {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list img {
+    max-width: 50px;
+    min-height: 20px;
+    color: #111111;
+}
