@@ -88,3 +88,18 @@ header {
     grid-template-columns: repeat(auto-fill, minmax(359.98px, 1fr));
     grid-gap: 30px;
 }
+
+footer,
+section {
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    text-align: center;
+    color: #fff;
+    min-height: 6rem;
+    background-color: #333333;
+}
+
+span {
+    color: rgb(174, 103, 115);
+    cursor: pointer;
+}
